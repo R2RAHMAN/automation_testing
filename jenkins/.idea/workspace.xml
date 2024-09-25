@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e0129b5-b462-4b17-9ff6-c23c9f5fa4b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/src/test/java/tests/ExamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/src/test/java/tests/SurveyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/src/test/java/tests/finalTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/src/test/resources/Albert_Einstein (1).pdf (1).crdownload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/src/test/resources/Albert_Einstein (1).pdf (2).crdownload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/src/test/resources/Albert_Einstein (1).pdf (3).crdownload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/src/test/resources/Albert_Einstein (1).pdf.crdownload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_2/src/test/resources/Albert_Einstein.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/src/test/java/pages/CityWeatherPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/src/test/java/tests/WeatherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/src/test/java/utils/SettingsTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/src/test/resources/enviroment/prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_3/src/test/resources/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/features/currentLocation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/features/recentLocations.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/features/searchCity.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/hooks/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/models/EnvData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/pages/CityWeatherPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/runners/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/stepdefinitions/CityWeatherPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/stepdefinitions/MainPageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/java/utils/SettingsTestData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/resources/env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/resources/environment/prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FinalTasks/FinalTask_Unit_5/src/test/resources/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/PL_Practice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/PL_Practice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/PL_Practice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/PL_Practice/src/main/java/PL2/Lambdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_1_parctice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_1_parctice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_1_parctice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_2_parctice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_2_parctice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_2_parctice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/target/test-classes/env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/target/test-classes/environment/prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/target/test-classes/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/target/test-classes/testdata/dataTableData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/target/test-classes/testdata/file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/target/test-classes/testdata/fileData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_3_parctice/target/test-classes/testdata/userData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_4_parctice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_4_parctice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_4_parctice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_4_parctice/target/test-classes/enviroment/prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_4_parctice/target/test-classes/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_5_parctice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_5_parctice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_5_parctice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_5_parctice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_5_parctice/target/test-classes/allure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_5_parctice/target/test-classes/env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_5_parctice/target/test-classes/environment/prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_5_parctice/target/test-classes/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_5_parctice/target/test-classes/testdata/dataTableData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_6_parctice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_6_parctice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_6_parctice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_6_parctice/target/test-classes/env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_6_parctice/target/test-classes/environment/prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_6_parctice/target/test-classes/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/8.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/Cross-Platform/BStackDemo-0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/Cross-Platform/BStackDemo-0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/Cross-Platform/BStackDemo-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/Cross-Platform/BStackDemo-1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/Cross-Platform/BStackDemo-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/Cross-Platform/BStackDemo-2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/Cross-Platform/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/junitreports/TEST-com.browserstack.BStackDemoTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/BStackDemo-0.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/BStackDemo-1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/BStackDemo-2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/Cross-Platform/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_7_parctice/testng-browserstack-master/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_8_parctice/.idea/Unit_8_parctice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_8_parctice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_8_parctice/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_8_parctice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/Unit_8_parctice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins_/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins_/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins_/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins_/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins_/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins_/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/jenkins_/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/site/allure-maven-plugin/allure-maven.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/Surefire suite/Surefire test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/TEST-runners.TestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/junitreports/TEST-runners.TestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/Surefire test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/Surefire suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/runners.TestRunner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/test-classes/env.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/test-classes/environment/prod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Parctices/untitled/target/test-classes/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../automation_testing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure-results/69ccec76-42a2-4183-9620-7e99609ea091-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure-results/97d9d572-7305-4d44-a3a8-7f8f58e9493a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure-results/9eb35572-0322-458c-9a89-ad69e0e3daf9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allure-results/adf594dd-c20b-4d2a-969a-9cd7d4fada31-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/features/searchCity.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/hooks/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/models/EnvData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/pages/CityWeatherPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/pages/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/runners/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/stepdefinitions/CityWeatherPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/stepdefinitions/MainPageSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/log/log.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/hooks/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/models/EnvData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/pages/CityWeatherPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/pages/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/runners/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/stepdefinitions/CityWeatherPageSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/stepdefinitions/MainPageSteps.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Parctices/Unit_7_parctice/testng-browserstack-master">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Practice" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;R2RAHMAN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/R2RAHMAN/automation_testing.git&quot;,
+    &quot;accountId&quot;: &quot;028026d6-9209-45e3-b236-8a65fad295f1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mKWAXd4wy4pnW0kvcPo4iBu7yY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Scenario: Search for New York.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.TestRunner.executor": "Run",
+    "git-widget-placeholder": "qualification__exam",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Office Tasks",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.TestRunner">
+    <configuration name="Scenario: Search for New York" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/Parctices/untitled/src/test/java/features/searchCity.feature" />
+      <option name="GLUE" value="stepdefinitions hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="untitled" />
+      <option name="NAME_FILTER" value="^Search for New York$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search for New York$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Search for New York" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="jenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Search for New York" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e0129b5-b462-4b17-9ff6-c23c9f5fa4b7" name="Changes" comment="" />
+      <created>1726825606174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726825606174</updated>
+    </task>
+    <servers />
+  </component>
+</project>

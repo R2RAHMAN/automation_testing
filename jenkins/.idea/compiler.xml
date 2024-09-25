@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jenkins" />
+        <module name="FinalTask_Unit_2" />
+        <module name="unit_5_FinalTask" />
+        <module name="FinalTask_Unit_3" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PL_Practice" target="22" />
+      <module name="testng-browserstack" target="1.8" />
+      <module name="testng-browserstack-master.main" target="1.8" />
+      <module name="testng-browserstack-master.test" target="1.8" />
+      <module name="Unit_1_parctice" target="22" />
+      <module name="Unit_2_parctice" target="22" />
+      <module name="Unit_3_parctice" target="22" />
+      <module name="Unit_4_parctice" target="22" />
+      <module name="Unit_5_parctice" target="22" />
+      <module name="Unit_6_parctice" target="22" />
+      <module name="Unit_8_parctice" target="22" />
+      <module name="untitled" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

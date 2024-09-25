@@ -1,0 +1,8 @@
+pages\CityWeatherPage.class
+runners\TestRunner.class
+stepdefinitions\MainPageSteps.class
+utils\SettingsTestData.class
+stepdefinitions\CityWeatherPageSteps.class
+models\EnvData.class
+hooks\Hooks.class
+pages\MainPage.class

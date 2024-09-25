@@ -1,0 +1,339 @@
+2024-09-15 19:58:55 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-15 19:58:55 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-15 19:59:00 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-15 19:59:00 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-15 19:59:00 INFO  - Browser 'CHROME' ready...
+2024-09-15 19:59:00 INFO  - Maximizing browser window
+2024-09-15 19:59:00 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-15 19:59:08 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:08 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:08 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-15 19:59:38 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-15 19:59:38 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-15 19:59:38 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:38 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:38 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-15 19:59:38 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:38 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:38 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-15 19:59:38 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-15 19:59:39 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:39 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:39 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:39 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 19:59:39 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-15 19:59:41 INFO  - Label 'City Header' :: Getting text from element
+2024-09-15 19:59:45 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-15 19:59:45 INFO  - Closing browser
+2024-09-15 20:02:03 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-15 20:02:03 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-15 20:02:07 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-15 20:02:07 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-15 20:02:07 INFO  - Browser 'CHROME' ready...
+2024-09-15 20:02:07 INFO  - Maximizing browser window
+2024-09-15 20:02:07 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-15 20:02:16 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:16 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:16 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-15 20:02:46 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-15 20:02:46 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-15 20:02:46 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:46 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:46 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-15 20:02:47 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:47 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:47 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-15 20:02:47 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-15 20:02:47 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:47 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:47 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:47 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:02:47 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-15 20:02:50 INFO  - Label 'City Header' :: Getting text from element
+2024-09-15 20:02:54 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-15 20:02:54 INFO  - Closing browser
+2024-09-15 20:10:11 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-15 20:10:12 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-15 20:10:15 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-15 20:10:15 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-15 20:10:15 INFO  - Browser 'CHROME' ready...
+2024-09-15 20:10:15 INFO  - Maximizing browser window
+2024-09-15 20:10:15 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-15 20:10:23 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:23 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:25 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-15 20:10:55 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-15 20:10:55 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-15 20:10:55 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:55 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:55 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-15 20:10:55 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:55 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:55 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-15 20:10:55 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-15 20:10:55 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:55 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:56 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:56 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:10:56 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-15 20:10:57 INFO  - Label 'City Header' :: Getting text from element
+2024-09-15 20:11:02 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-15 20:11:02 INFO  - Closing browser
+2024-09-15 20:13:54 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-15 20:13:54 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-15 20:13:57 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-15 20:13:57 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-15 20:13:57 INFO  - Browser 'CHROME' ready...
+2024-09-15 20:13:57 INFO  - Maximizing browser window
+2024-09-15 20:13:57 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-15 20:14:00 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:00 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:01 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-15 20:14:31 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-15 20:14:31 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-15 20:14:31 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:31 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:31 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-15 20:14:31 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:31 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:31 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-15 20:14:31 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-15 20:14:32 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:32 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:32 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:32 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-15 20:14:32 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-15 20:14:33 INFO  - Label 'City Header' :: Getting text from element
+2024-09-15 20:14:37 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-15 20:14:37 INFO  - Closing browser
+2024-09-16 04:56:22 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-16 04:56:22 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-16 04:56:32 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-16 04:56:32 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-16 04:56:32 INFO  - Browser 'CHROME' ready...
+2024-09-16 04:56:32 INFO  - Maximizing browser window
+2024-09-16 04:56:32 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-16 04:56:36 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:56:36 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:56:37 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-16 04:57:07 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-16 04:57:07 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-16 04:57:07 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:57:07 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:57:07 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-16 04:57:07 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:57:07 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:57:07 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-16 04:57:07 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-16 04:57:08 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:57:08 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:57:08 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:57:08 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 04:57:08 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-16 04:57:09 INFO  - Label 'City Header' :: Getting text from element
+2024-09-16 04:57:15 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-16 04:57:15 INFO  - Closing browser
+2024-09-16 16:43:34 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-16 16:43:34 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-16 16:43:55 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-16 16:43:55 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-16 16:43:55 INFO  - Browser 'CHROME' ready...
+2024-09-16 16:43:55 INFO  - Maximizing browser window
+2024-09-16 16:43:56 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-16 16:44:04 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:04 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:05 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-16 16:44:35 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-16 16:44:35 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-16 16:44:35 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:35 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:35 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-16 16:44:36 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:36 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:36 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-16 16:44:36 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-16 16:44:36 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:36 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:37 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:37 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:37 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-16 16:44:38 INFO  - Label 'City Header' :: Getting text from element
+2024-09-16 16:44:44 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-16 16:44:44 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:44 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:44:44 INFO  - Closing browser
+2024-09-16 16:47:52 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-16 16:47:52 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-16 16:47:58 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-16 16:47:58 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-16 16:47:58 INFO  - Browser 'CHROME' ready...
+2024-09-16 16:47:58 INFO  - Maximizing browser window
+2024-09-16 16:47:59 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-16 16:48:14 INFO  - Closing browser
+2024-09-16 16:48:33 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-16 16:48:33 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-16 16:48:38 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-16 16:48:38 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-16 16:48:38 INFO  - Browser 'CHROME' ready...
+2024-09-16 16:48:38 INFO  - Maximizing browser window
+2024-09-16 16:48:38 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-16 16:48:46 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:48:46 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:48:47 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-16 16:49:17 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-16 16:49:17 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-16 16:49:17 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:17 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:17 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-16 16:49:17 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:17 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:17 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-16 16:49:17 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-16 16:49:17 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:18 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:18 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:18 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:18 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-16 16:49:19 INFO  - Label 'City Header' :: Getting text from element
+2024-09-16 16:49:26 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-16 16:49:26 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:26 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:49:26 INFO  - Closing browser
+2024-09-16 16:52:51 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-16 16:52:51 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-16 16:52:58 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-16 16:52:58 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-16 16:52:58 INFO  - Browser 'CHROME' ready...
+2024-09-16 16:52:58 INFO  - Maximizing browser window
+2024-09-16 16:52:58 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-16 16:53:09 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:09 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:09 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-16 16:53:40 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-16 16:53:40 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-16 16:53:40 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:40 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:40 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-16 16:53:42 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:42 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:42 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-16 16:53:42 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-16 16:53:42 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:42 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:42 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:42 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:42 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-16 16:53:44 INFO  - Label 'City Header' :: Getting text from element
+2024-09-16 16:53:50 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-16 16:53:50 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:50 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:53:50 INFO  - Closing browser
+2024-09-16 16:59:36 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-16 16:59:36 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-16 16:59:40 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-16 16:59:40 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-16 16:59:40 INFO  - Browser 'CHROME' ready...
+2024-09-16 16:59:40 INFO  - Maximizing browser window
+2024-09-16 16:59:41 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-16 16:59:52 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:59:53 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 16:59:55 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-16 17:00:25 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-16 17:00:25 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-16 17:00:25 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:25 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:25 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-16 17:00:25 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:25 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:25 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-16 17:00:25 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-16 17:00:26 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:26 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:26 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:26 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:26 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-16 17:00:29 INFO  - Label 'City Header' :: Getting text from element
+2024-09-16 17:00:35 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-16 17:00:35 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:35 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:00:35 INFO  - Closing browser
+2024-09-16 17:02:56 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-16 17:02:57 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-16 17:03:02 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-16 17:03:02 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-16 17:03:02 INFO  - Browser 'CHROME' ready...
+2024-09-16 17:03:02 INFO  - Maximizing browser window
+2024-09-16 17:03:02 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-16 17:03:10 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:10 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:10 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-16 17:03:40 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-16 17:03:40 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-16 17:03:40 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:40 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:40 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-16 17:03:41 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:41 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:41 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-16 17:03:41 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-16 17:03:41 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:41 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:41 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:41 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:41 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-16 17:03:44 INFO  - Label 'City Header' :: Getting text from element
+2024-09-16 17:03:48 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-16 17:03:48 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:48 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-16 17:03:49 INFO  - Closing browser
+2024-09-23 04:02:59 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=./downloads}
+2024-09-23 04:02:59 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-23 04:03:09 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-23 04:03:09 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-23 04:03:09 INFO  - Browser 'CHROME' ready...
+2024-09-23 04:03:09 INFO  - Maximizing browser window
+2024-09-23 04:03:09 INFO  - Navigate to url - 'https://www.accuweather.com/'
+2024-09-23 04:03:14 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:14 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:15 INFO  - Label 'Main Page' :: Waiting for element to be displayed
+2024-09-23 04:03:45 DEBUG - No elements with locator 'By.xpath: //div[contains(@class, 'main-page')]' were found in DISPLAYED state
+2024-09-23 04:03:45 INFO  - Label 'Main Page' :: Element has not become displayed after timeout
+2024-09-23 04:03:45 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:45 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:45 INFO  - Text Field 'Search Input' :: Clicking
+2024-09-23 04:03:46 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:46 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:46 INFO  - Text Field 'Search Input' :: Clearing
+2024-09-23 04:03:46 INFO  - Text Field 'Search Input' :: Typing 'New York'
+2024-09-23 04:03:46 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:47 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:47 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:47 DEBUG - Elements were found by locator 'By.className: results-container' but not in desired state DISPLAYED
+2024-09-23 04:03:47 INFO  - Button 'First Suggestion' :: Clicking
+2024-09-23 04:03:48 INFO  - Label 'City Header' :: Getting text from element
+2024-09-23 04:03:53 INFO  - Label 'City Header' :: Element's text: [New York City, NY]
+2024-09-23 04:03:53 INFO  - Closing browser

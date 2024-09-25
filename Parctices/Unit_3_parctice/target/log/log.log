@@ -1,0 +1,9 @@
+2024-09-11 13:42:14 DEBUG - Got browser profile options from settings file: 
+{disable-popup-blocking=true, profile.default_content_settings.popups=0, download.prompt_for_download=false, intl.accept_languages=en, safebrowsing.enabled=true, download.default_directory=.src/test/resources/}
+2024-09-11 13:42:14 DEBUG - Got browser logging preferences from settings file: 
+{Performance=All}
+2024-09-11 13:42:51 DEBUG - Set '15' timeout in seconds for loading of pages
+2024-09-11 13:42:51 DEBUG - Set async javascript execution timeout '10' in seconds
+2024-09-11 13:42:51 INFO  - Browser 'CHROME' ready...
+2024-09-11 13:42:51 INFO  - Navigate to url - 'https://www.example.com'
+2024-09-11 13:42:53 INFO  - Closing browser

@@ -1,0 +1,874 @@
+14:15:01.599 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Office Tasks\\Parctices\\Unit_7_parctice\\testng-browserstack-master, idea.version=2024.2.1, user.dir=C\:\\Office Tasks\\Parctices\\Unit_7_parctice\\testng-browserstack-master, localrepository=C\:\\Users\\PC\\.m2\\repository}
+14:15:02.715 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+14:15:02.715 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+14:15:02.730 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\target\surefire\surefire16319109102784411444tmp
+14:15:02.738 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.SeleniumTest
+14:15:02.835 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+14:15:02.853 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+14:15:02.853 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+14:15:02.853 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.23.3
+14:15:02.879 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+14:15:02.879 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+14:15:02.880 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+14:15:02.880 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+14:15:04.275 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+14:15:05.042 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 760ms
+14:15:06.296 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1234ms
+14:15:07.147 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 849ms
+14:15:07.164 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+14:15:07.192 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"RkJkSfSsr2pQAXkxGDw3","userName":"raisurrahman_IMlzY0","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":66,"parseDependencies":17},"language":"java","sdkRunId":"1e84f839-bd35-4406-bfe4-2f86be7c766e","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.23.3","hostname":"DESKTOP-61IAQLG","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+14:15:08.653 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+14:15:08.702 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+14:15:08.702 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 743
+14:15:09.951 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:15:09.952 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : s2qvssvfwecb8aps0a9rn4bpcbl241h1sg8mpplk
+14:15:09.952 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+14:15:10.015 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 11_Sep_1415_DESKTOP_61IAQLG_JTf3
+14:16:49.873 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 3 and number of platforms - 3
+14:16:50.467 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-11T08:16:50.467974700Z][ OBSERVABILITY ] Processing Logs patching stream
+14:16:50.571 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+14:16:50.572 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+14:16:50.572 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:16:50.572 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:16:50.573 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+14:16:50.574 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:16:50.617 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:16:50.617 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:16:50.618 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:16:50.618 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:16:50.617 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:16:50.619 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:16:50.629 [setUp@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+14:16:50.629 [setUp@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+14:16:50.629 [setUp@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+14:16:51.675 [setUp@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+14:16:51.680 [setUp@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+14:16:51.681 [setUp@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+14:16:51.860 [setUp@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+14:16:52.657 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1726042612657
+
+14:16:52.667 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 7
+
+14:16:52.682 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 3589
+14:16:53.593 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:16:53.594 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T08:16:53.594963300Z][ TESTHUB ] Batch event successfull!
+
+14:16:53.662 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+14:16:53.662 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+14:16:53.663 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+14:16:53.671 [setUp@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 46
+14:16:53.671 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 45
+14:16:53.672 [setUp@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 44
+14:16:53.674 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+14:16:53.674 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+14:16:53.675 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+14:16:56.660 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+14:16:58.661 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+14:17:01.034 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:17:01.035 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+14:17:01.039 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:01.039 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:01.116 [BStackDemo-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+14:17:01.116 [BStackDemo-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+14:17:01.129 [BStackDemo-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:01.129 [BStackDemo-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:01.157 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:01.157 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:01.157 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:01.157 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:01.167 [BStackDemo-1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+14:17:02.666 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4005
+
+14:17:02.666 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+14:17:02.667 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1661
+14:17:03.256 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:17:03.256 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T08:17:03.256480900Z][ TESTHUB ] Batch event successfull!
+
+14:17:03.982 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:17:03.983 [setUp@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+14:17:03.983 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:03.983 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:04.043 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+14:17:04.043 [BStackDemo-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+14:17:04.056 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:04.056 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:04.113 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:04.113 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:04.113 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:04.113 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:04.119 [BStackDemo-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+14:17:06.666 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+14:17:06.666 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+14:17:06.667 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2245
+14:17:06.851 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+14:17:06.851 [addProductToCart@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:17:06.863 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:06.863 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:06.870 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:06.870 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:06.870 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:06.871 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:06.871 [addProductToCart@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+14:17:06.873 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+14:17:06.873 [addProductToCart@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+14:17:06.886 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:06.886 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:06.901 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:06.901 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:06.901 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:06.901 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:06.908 [addProductToCart@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+14:17:06.919 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:17:06.919 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T08:17:06.919359300Z][ TESTHUB ] Batch event successfull!
+
+14:17:06.986 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+14:17:06.986 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:17:07.002 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:07.003 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:07.007 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:07.007 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:07.007 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:07.007 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:07.008 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+14:17:07.011 [tearDown@1] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+14:17:08.914 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+14:17:08.914 [addProductToCart@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:17:08.924 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:08.924 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:08.948 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:08.948 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:08.948 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:08.948 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:08.948 [addProductToCart@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+14:17:08.949 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+14:17:08.949 [addProductToCart@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+14:17:08.963 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:08.963 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:08.982 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:08.982 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:08.982 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:08.982 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:08.987 [addProductToCart@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+14:17:09.039 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+14:17:09.039 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:17:09.051 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:09.052 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:09.068 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:09.068 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:09.069 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:09.069 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:09.069 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+14:17:09.069 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+14:17:09.728 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+14:17:09.728 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:17:09.744 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:09.744 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:09.745 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+14:17:10.207 [tearDown@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+14:17:10.664 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+14:17:10.664 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 7
+
+14:17:10.667 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 17874
+14:17:10.924 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:17:10.925 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T08:17:10.925360100Z][ TESTHUB ] Batch event successfull!
+
+14:17:11.439 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+14:17:11.439 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:17:11.452 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:11.452 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:11.453 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+14:17:11.473 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+14:17:11.866 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+14:17:11.866 [setUp@2] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+14:17:11.867 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:11.867 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:11.902 [BStackDemo-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+14:17:11.902 [BStackDemo-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+14:17:11.923 [BStackDemo-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:11.923 [BStackDemo-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:11.936 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:11.936 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:11.936 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:11.937 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:11.950 [BStackDemo-2@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+14:17:14.652 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3988
+
+14:17:14.652 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+14:17:14.653 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2808
+14:17:14.933 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:17:14.933 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T08:17:14.933333Z][ TESTHUB ] Batch event successfull!
+
+14:17:15.839 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+14:17:15.839 [addProductToCart@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:17:15.856 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:15.856 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:15.864 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:15.865 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:15.865 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:15.865 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:15.865 [addProductToCart@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+14:17:15.866 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+14:17:15.867 [addProductToCart@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+14:17:15.889 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:15.889 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:15.898 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:15.898 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:15.899 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:15.899 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:15.904 [addProductToCart@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+14:17:15.968 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+14:17:15.969 [tearDown@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:17:15.987 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:15.987 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:15.991 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:15.991 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:15.993 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+14:17:15.993 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+14:17:15.994 [tearDown@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+14:17:15.994 [tearDown@2] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+14:17:16.653 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+14:17:16.653 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 3
+
+14:17:16.654 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 5726
+14:17:16.903 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:17:16.904 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T08:17:16.904327400Z][ TESTHUB ] Batch event successfull!
+
+14:17:18.567 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+14:17:18.567 [tearDown@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+14:17:18.587 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+14:17:18.588 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+14:17:18.588 [tearDown@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+14:17:18.615 [tearDown@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+14:17:18.656 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2003
+
+14:17:18.656 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+14:17:18.656 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 904
+14:17:18.911 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:17:18.911 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T08:17:18.911880100Z][ TESTHUB ] Batch event successfull!
+
+14:17:19.055 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+14:17:19.060 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+14:17:19.060 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-11T08:17:19.060851600Z][ OBSERVABILITY ] Processing stop observability
+14:17:19.065 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+14:17:19.065 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/s2qvssvfwecb8aps0a9rn4bpcbl241h1sg8mpplk/stop with request size 65
+14:17:19.313 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+14:17:19.313 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+14:17:24.013 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+14:17:24.014 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+14:17:24.014 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+14:17:24.167 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+14:17:24.299 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"RkJkSfSsr2pQAXkxGDw3","userName":"raisurrahman_IMlzY0","event_properties":{"language":"java","sdkRunId":"1e84f839-bd35-4406-bfe4-2f86be7c766e","buildIdentifier":"#1","error":"[{\"tests\":{\"com.browserstack.BStackDemoTest-addProductToCart\":\"For documentation on this error, please visit: https:\\\/\\\/selenium.dev\\\/exceptions\\\/#no_such_element Build info: version: '4.1.4', revision: '535d840ee2' System info: host: 'DESKTOP-61IAQLG', ip: '192.168.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [b13709a547ce4b3e225c1cbc3c5c1267a26e0f95, findElement {using=xpath, value=\\\/\\\/*[@id=\\\"1\\\"]\\\/p}] Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, javascriptEnabled: true, optimalHubUrl: hub-aps.browserstack.com, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: b13709a547ce4b3e225c1cbc3c5..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}} Session ID: b13709a547ce4b3e225c1cbc3c5c1267a26e0f95\"},\"os\":\"OS X\",\"osVersion\":\"Monterey\",\"browser\":\"Safari\",\"browserVersion\":\"15.6\"}]","testhub_uuid":"s2qvssvfwecb8aps0a9rn4bpcbl241h1sg8mpplk","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"DESKTOP-61IAQLG","measures":{"local:start":96678,"sdk:setup":106210,"local:stop":4695},"productUsage":{"testObservability":{"buildHashedId":"s2qvssvfwecb8aps0a9rn4bpcbl241h1sg8mpplk","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":6,"failedCount":0,"triggeredCount":5},"finished":{"triggeredCount":6,"failedCount":0,"errors":[],"sentCount":6},"passed":{"errors":[],"sentCount":6,"failedCount":0,"triggeredCount":6}},"logEvents":{"errors":[],"sentCount":4,"failedCount":0,"triggeredCount":4,"log":{"errors":[],"sentCount":4,"failedCount":0,"triggeredCount":4}},"testEvents":{"started":{"errors":[],"sentCount":3,"failedCount":0,"triggeredCount":3},"finished":{"triggeredCount":3,"failedCount":0,"errors":[],"sentCount":3},"passed":{"errors":[],"sentCount":2,"failedCount":0,"triggeredCount":2},"failed":{"errors":[],"sentCount":1,"failedCount":0,"triggeredCount":1}},"batchEvents":{"triggeredCount":7,"failedCount":0,"errors":[],"sentCount":7},"cbtSessionEvents":{"errors":[],"sentCount":0,"failedCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"11_Sep_1415_DESKTOP_61IAQLG_JTf3","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"serenityOverridePlugin":false,"skipSessionName":false},"platforms":[{"capabilities":{},"platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Chrome"},"osVersion":"10","browser":"Chrome","os":"Windows","device":null,"browserVersion":"latest","platformString":"Windows, 10, Chrome, latest","customVariables":"****"},{"capabilities":{},"platformCaps":{"os":"OS X","osVersion":"Monterey","browserVersion":15.6,"browserName":"Safari"},"osVersion":"Monterey","browser":"Safari","os":"OS X","device":null,"browserVersion":"15.6","platformString":"OS X, Monterey, Safari, 15.6","customVariables":"****"},{"capabilities":{"deviceOrientation":"portrait","deviceName":"iPhone 13"},"platformCaps":{"osVersion":15,"browserName":"safari","deviceName":"iPhone 13"},"osVersion":"15","browser":"safari","os":null,"device":"iPhone 13","browserVersion":null,"platformString":"iPhone 13, 15, safari","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":66,"ret-org.openqa.selenium.remote.RemoteWebDriver":2455,"retransformClasses":2457,"parseDependencies":17},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.23.3","language_framework":"java_testng","detectedFramework":"testng","testOrchestration":{"abortBuildOnFailure":{"userConfig":{},"enabled":false},"retryTestsOnFailure":{"userConfig":{},"enabled":false}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+14:17:25.631 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+14:17:27.893 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  1) is not same as client side buildName(browserstack-build-1 #1)
+14:17:27.895 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
+15:53:29.281 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Office Tasks\\Parctices\\Unit_7_parctice\\testng-browserstack-master, idea.version=2024.2.1, user.dir=C\:\\Office Tasks\\Parctices\\Unit_7_parctice\\testng-browserstack-master, localrepository=C\:\\Users\\PC\\.m2\\repository}
+15:53:30.402 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+15:53:30.403 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+15:53:30.410 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\target\surefire\surefire3759443259182643110tmp
+15:53:30.414 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.SeleniumTest
+15:53:30.511 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+15:53:30.530 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+15:53:30.530 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+15:53:30.530 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.23.3
+15:53:30.564 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+15:53:30.565 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+15:53:30.565 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+15:53:30.565 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+15:53:31.745 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+15:53:32.088 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 333ms
+15:53:33.080 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 981ms
+15:53:34.424 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1343ms
+15:53:34.580 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+15:53:34.619 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"RkJkSfSsr2pQAXkxGDw3","userName":"raisurrahman_IMlzY0","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":89,"parseDependencies":19},"language":"java","sdkRunId":"da4761ec-8458-477c-ae2d-6bdd67d42bff","buildIdentifier":"#2","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.23.3","hostname":"DESKTOP-61IAQLG","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+15:53:35.181 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+15:53:35.233 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+15:53:35.234 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 743
+15:53:36.999 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:53:37.001 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : nbrcmsc8z9ou5nxu5a5h3oily0imlxpf9ctbirg8
+15:53:37.001 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+15:53:37.009 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 11_Sep_1553_DESKTOP_61IAQLG_99pq
+15:53:58.767 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 3 and number of platforms - 3
+15:53:59.085 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-11T09:53:59.085714600Z][ OBSERVABILITY ] Processing Logs patching stream
+15:53:59.162 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+15:53:59.162 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:53:59.169 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+15:53:59.169 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+15:53:59.169 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:53:59.169 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:53:59.225 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:53:59.225 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:53:59.225 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:53:59.225 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:53:59.226 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:53:59.226 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:53:59.234 [setUp@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:53:59.235 [setUp@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:53:59.234 [setUp@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:54:00.563 [setUp@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+15:54:00.567 [setUp@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+15:54:00.568 [setUp@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+15:54:01.151 [setUp@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+15:54:01.270 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1726048441270
+
+15:54:01.285 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 7
+
+15:54:01.286 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 3589
+15:54:01.557 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:54:01.557 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T09:54:01.557708100Z][ TESTHUB ] Batch event successfull!
+
+15:54:03.303 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2027
+
+15:54:03.996 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+15:54:03.996 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+15:54:03.996 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+15:54:04.018 [setUp@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 42
+15:54:04.019 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 43
+15:54:04.018 [setUp@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 44
+15:54:04.023 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+15:54:04.025 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+15:54:04.026 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+15:54:07.260 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3957
+
+15:54:09.276 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2016
+
+15:54:11.138 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:54:11.139 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+15:54:11.171 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:11.171 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:11.288 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2011
+
+15:54:11.347 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:54:11.348 [setUp@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+15:54:11.351 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:11.351 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:11.364 [BStackDemo-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+15:54:11.365 [BStackDemo-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+15:54:11.432 [BStackDemo-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:11.433 [BStackDemo-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:11.536 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+15:54:11.537 [BStackDemo-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+15:54:11.563 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:11.563 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:11.563 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:11.563 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:11.598 [BStackDemo-1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+15:54:11.664 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:11.666 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:11.768 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:11.768 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:11.769 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:11.769 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:11.774 [BStackDemo-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+15:54:13.648 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+15:54:13.648 [addProductToCart@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:54:13.674 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:13.674 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:13.686 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:13.686 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:13.686 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:13.686 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:13.689 [addProductToCart@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:54:13.692 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+15:54:13.692 [addProductToCart@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+15:54:13.717 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:13.717 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:13.729 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:13.729 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:13.729 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:13.729 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:13.743 [addProductToCart@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+15:54:13.820 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+15:54:13.820 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:54:13.843 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:13.843 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:13.852 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:13.853 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:13.853 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:13.853 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:13.853 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:54:13.855 [tearDown@1] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+15:54:15.266 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3977
+
+15:54:15.267 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+15:54:15.269 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 14129
+15:54:15.544 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:54:15.544 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T09:54:15.544255300Z][ TESTHUB ] Batch event successfull!
+
+15:54:17.183 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+15:54:17.183 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:54:17.200 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:17.201 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:17.202 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:54:17.274 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2008
+
+15:54:17.275 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+15:54:17.275 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 904
+15:54:17.340 [tearDown@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:54:17.500 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+15:54:17.500 [addProductToCart@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:54:17.521 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:17.522 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:17.539 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:54:17.553 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:17.553 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:17.553 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:17.553 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:17.553 [addProductToCart@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:54:17.554 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+15:54:17.555 [addProductToCart@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+15:54:17.684 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:17.684 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:17.820 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:17.820 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:17.820 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:17.820 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:17.843 [addProductToCart@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+15:54:17.917 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+15:54:17.917 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:54:17.936 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:17.936 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:17.983 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:17.984 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:17.984 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:17.984 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:17.984 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:54:17.985 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+15:54:18.384 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T09:54:18.384784800Z][ TESTHUB ] Batch event successfull!
+
+15:54:20.200 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+15:54:20.200 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:54:20.212 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:20.212 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:20.213 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:54:20.220 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:54:21.259 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3981
+
+15:54:21.259 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+15:54:21.259 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 7646
+15:54:21.533 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:54:21.533 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T09:54:21.533717600Z][ TESTHUB ] Batch event successfull!
+
+15:54:23.268 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2009
+
+15:54:23.972 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+15:54:23.972 [setUp@2] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+15:54:23.973 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:23.973 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:23.994 [BStackDemo-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+15:54:23.996 [BStackDemo-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+15:54:24.018 [BStackDemo-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:24.019 [BStackDemo-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:24.023 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:24.023 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:24.024 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:24.024 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:24.031 [BStackDemo-2@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+15:54:25.274 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2006
+
+15:54:25.274 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+15:54:25.275 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1905
+15:54:25.616 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:54:25.617 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T09:54:25.617027400Z][ TESTHUB ] Batch event successfull!
+
+15:54:27.984 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+15:54:27.985 [addProductToCart@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:54:28.000 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:28.000 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:28.003 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:28.003 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:28.004 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:28.004 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:28.004 [addProductToCart@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:54:28.005 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+15:54:28.006 [addProductToCart@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+15:54:28.030 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:28.030 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:28.035 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:28.035 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:28.035 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:28.035 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:28.042 [addProductToCart@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+15:54:28.103 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+15:54:28.103 [tearDown@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:54:28.117 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:28.117 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:28.120 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:28.120 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:28.120 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+15:54:28.120 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+15:54:28.120 [tearDown@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+15:54:28.120 [tearDown@2] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+15:54:29.267 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3993
+
+15:54:29.267 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 3
+
+15:54:29.268 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 5726
+15:54:29.535 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:54:29.536 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T09:54:29.536192100Z][ TESTHUB ] Batch event successfull!
+
+15:54:30.496 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+15:54:30.496 [tearDown@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+15:54:30.507 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+15:54:30.507 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+15:54:30.508 [tearDown@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+15:54:30.523 [tearDown@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+15:54:30.830 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+15:54:30.831 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+15:54:30.832 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-11T09:54:30.832015500Z][ OBSERVABILITY ] Processing stop observability
+15:54:30.833 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+15:54:30.834 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 904
+15:54:31.097 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:54:31.098 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T09:54:31.098980800Z][ TESTHUB ] Batch event successfull!
+
+15:54:31.100 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+15:54:31.101 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/nbrcmsc8z9ou5nxu5a5h3oily0imlxpf9ctbirg8/stop with request size 65
+15:54:31.362 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+15:54:31.362 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+15:54:37.277 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+15:54:37.277 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+15:54:37.277 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+15:54:37.286 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+15:54:37.400 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"RkJkSfSsr2pQAXkxGDw3","userName":"raisurrahman_IMlzY0","event_properties":{"language":"java","sdkRunId":"da4761ec-8458-477c-ae2d-6bdd67d42bff","buildIdentifier":"#2","error":"[{\"tests\":{\"com.browserstack.BStackDemoTest-addProductToCart\":\"For documentation on this error, please visit: https:\\\/\\\/selenium.dev\\\/exceptions\\\/#no_such_element Build info: version: '4.1.4', revision: '535d840ee2' System info: host: 'DESKTOP-61IAQLG', ip: '192.168.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [19017b491aa48320941f097023f08ef40ff43fc6, findElement {using=xpath, value=\\\/\\\/*[@id=\\\"1\\\"]\\\/p}] Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, javascriptEnabled: true, optimalHubUrl: hub-aps.browserstack.com, platform: MAC, platformName: MAC, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: 19017b491aa48320941f097023f..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}} Session ID: 19017b491aa48320941f097023f08ef40ff43fc6\"},\"os\":\"OS X\",\"osVersion\":\"Monterey\",\"browser\":\"Safari\",\"browserVersion\":\"15.6\"}]","testhub_uuid":"nbrcmsc8z9ou5nxu5a5h3oily0imlxpf9ctbirg8","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"DESKTOP-61IAQLG","measures":{"local:start":19569,"sdk:setup":28424,"local:stop":5905},"productUsage":{"testObservability":{"buildHashedId":"nbrcmsc8z9ou5nxu5a5h3oily0imlxpf9ctbirg8","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":6,"triggeredCount":6,"failedCount":0},"finished":{"triggeredCount":6,"failedCount":0,"errors":[],"sentCount":6},"passed":{"errors":[],"sentCount":6,"triggeredCount":6,"failedCount":0}},"logEvents":{"errors":[],"sentCount":4,"triggeredCount":4,"failedCount":0,"log":{"errors":[],"sentCount":4,"triggeredCount":4,"failedCount":0}},"testEvents":{"started":{"errors":[],"sentCount":3,"triggeredCount":3,"failedCount":0},"finished":{"triggeredCount":3,"failedCount":0,"errors":[],"sentCount":3},"passed":{"errors":[],"sentCount":2,"triggeredCount":2,"failedCount":0},"failed":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0}},"batchEvents":{"triggeredCount":7,"failedCount":0,"errors":[],"sentCount":7},"cbtSessionEvents":{"errors":[],"sentCount":0,"triggeredCount":0,"failedCount":0},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"11_Sep_1553_DESKTOP_61IAQLG_99pq","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"os":"Windows","device":null,"browser":"Chrome","osVersion":"10","capabilities":{},"platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Chrome"},"browserVersion":"latest","platformString":"Windows, 10, Chrome, latest","customVariables":"****"},{"os":"OS X","device":null,"browser":"Safari","osVersion":"Monterey","capabilities":{},"platformCaps":{"os":"OS X","osVersion":"Monterey","browserVersion":15.6,"browserName":"Safari"},"browserVersion":"15.6","platformString":"OS X, Monterey, Safari, 15.6","customVariables":"****"},{"os":null,"device":"iPhone 13","browser":"safari","osVersion":"15","capabilities":{"deviceOrientation":"portrait","deviceName":"iPhone 13"},"platformCaps":{"osVersion":15,"browserName":"safari","deviceName":"iPhone 13"},"browserVersion":null,"platformString":"iPhone 13, 15, safari","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":89,"ret-org.openqa.selenium.remote.RemoteWebDriver":1596,"retransformClasses":1598,"parseDependencies":19},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.23.3","language_framework":"java_testng","detectedFramework":"testng","testOrchestration":{"abortBuildOnFailure":{"userConfig":{},"enabled":false},"retryTestsOnFailure":{"userConfig":{},"enabled":false}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+15:54:37.983 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+15:54:39.516 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  2) is not same as client side buildName(browserstack-build-1 #2)
+15:54:39.519 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
+16:01:03.158 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Office Tasks\\Parctices\\Unit_7_parctice\\testng-browserstack-master, idea.version=2024.2.1, user.dir=C\:\\Office Tasks\\Parctices\\Unit_7_parctice\\testng-browserstack-master, localrepository=C\:\\Users\\PC\\.m2\\repository}
+16:01:04.291 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+16:01:04.291 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+16:01:04.312 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\target\surefire\surefire6880814878940823972tmp
+16:01:04.326 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.SeleniumTest
+16:01:04.459 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+16:01:04.480 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+16:01:04.480 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+16:01:04.480 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.23.3
+16:01:04.494 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+16:01:04.494 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+16:01:04.495 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+16:01:04.495 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+16:01:05.660 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+16:01:06.019 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 331ms
+16:01:07.138 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1109ms
+16:01:08.555 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1415ms
+16:01:08.594 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+16:01:08.710 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"RkJkSfSsr2pQAXkxGDw3","userName":"raisurrahman_IMlzY0","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":101,"parseDependencies":21},"language":"java","sdkRunId":"7e4fa177-c63d-4794-8d46-b9ba31958905","buildIdentifier":"#3","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.23.3","hostname":"DESKTOP-61IAQLG","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+16:01:09.515 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+16:01:09.544 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+16:01:09.545 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 743
+16:01:10.900 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:01:10.901 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : ehmrtcwcisnqju0su7qrahtkdobl3hqidef56hv3
+16:01:10.905 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+16:01:11.140 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 11_Sep_161_DESKTOP_61IAQLG_SFYu
+16:01:31.590 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 3 and number of platforms - 3
+16:01:32.011 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-11T10:01:32.011685300Z][ OBSERVABILITY ] Processing Logs patching stream
+16:01:32.197 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+16:01:32.197 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+16:01:32.198 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:01:32.198 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:01:32.199 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+16:01:32.199 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:01:32.239 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:32.239 [setUp@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:32.239 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:32.241 [setUp@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:32.249 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:32.249 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:32.251 [setUp@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+16:01:32.251 [setUp@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+16:01:32.251 [setUp@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+16:01:33.806 [setUp@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+16:01:33.807 [setUp@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+16:01:33.810 [setUp@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+16:01:34.304 [setUp@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+16:01:34.314 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1726048894314
+
+16:01:34.349 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 7
+
+16:01:34.353 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 3586
+16:01:34.639 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:01:34.639 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T10:01:34.639088600Z][ TESTHUB ] Batch event successfull!
+
+16:01:37.346 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+16:01:37.346 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+16:01:37.346 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+16:01:37.384 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 43
+16:01:37.384 [setUp@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 42
+16:01:37.384 [setUp@2] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 44
+16:01:37.388 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+16:01:37.388 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+16:01:37.389 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+16:01:38.319 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4001
+
+16:01:42.287 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3968
+
+16:01:45.232 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+16:01:45.232 [setUp@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+16:01:45.236 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:45.236 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:45.400 [BStackDemo-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+16:01:45.404 [BStackDemo-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+16:01:45.506 [BStackDemo-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:45.507 [BStackDemo-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:45.544 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:45.552 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:45.552 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:45.552 [BStackDemo-1@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:45.565 [BStackDemo-1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+16:01:46.286 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+16:01:46.286 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+16:01:46.287 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1661
+16:01:46.607 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:01:46.607 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T10:01:46.607422300Z][ TESTHUB ] Batch event successfull!
+
+16:01:48.678 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+16:01:48.678 [addProductToCart@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:01:48.691 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:48.692 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:48.696 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:48.696 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:48.697 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:48.697 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:48.697 [addProductToCart@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+16:01:48.698 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+16:01:48.698 [addProductToCart@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+16:01:48.716 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:48.716 [addProductToCart@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:48.725 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:48.725 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:48.726 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:48.726 [addProductToCart@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:48.732 [addProductToCart@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+16:01:48.789 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+16:01:48.789 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:01:48.806 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:48.806 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:48.813 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:48.814 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:48.814 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:48.814 [tearDown@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:48.814 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+16:01:48.817 [tearDown@1] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+16:01:49.007 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+16:01:49.008 [setUp@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+16:01:49.008 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:49.008 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:49.079 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+16:01:49.079 [BStackDemo-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+16:01:49.098 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:49.099 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:49.141 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:49.144 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:49.144 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:49.144 [BStackDemo-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:49.150 [BStackDemo-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+16:01:50.299 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4013
+
+16:01:50.300 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+16:01:50.300 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 7239
+16:01:50.557 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:01:50.557 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T10:01:50.557553Z][ TESTHUB ] Batch event successfull!
+
+16:01:51.114 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+16:01:51.114 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:01:51.131 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:51.132 [tearDown@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:51.132 [tearDown@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+16:01:51.188 [tearDown@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+16:01:54.293 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3994
+
+16:01:54.293 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+16:01:54.293 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 904
+16:01:54.604 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:01:54.604 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T10:01:54.604546200Z][ TESTHUB ] Batch event successfull!
+
+16:01:54.919 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+16:01:54.919 [setUp@2] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+16:01:54.920 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:54.920 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:54.949 [BStackDemo-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+16:01:54.950 [BStackDemo-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+16:01:54.984 [BStackDemo-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:01:55.000 [BStackDemo-2@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:01:55.005 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:55.005 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:55.006 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:01:55.006 [BStackDemo-2@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:01:55.015 [BStackDemo-2@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+16:01:58.289 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3996
+
+16:01:58.290 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+16:01:58.290 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1905
+16:01:58.696 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:01:58.697 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T10:01:58.697556700Z][ TESTHUB ] Batch event successfull!
+
+16:02:00.301 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2012
+
+16:02:00.557 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+16:02:00.557 [addProductToCart@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:02:00.569 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:02:00.569 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:02:00.574 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:00.574 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:00.574 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:00.575 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:00.575 [addProductToCart@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+16:02:00.579 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+16:02:00.580 [addProductToCart@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+16:02:00.600 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:02:00.600 [addProductToCart@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:02:00.606 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:00.607 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:00.607 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:00.607 [addProductToCart@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:00.614 [addProductToCart@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+16:02:00.674 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+16:02:00.674 [tearDown@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:02:00.688 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:02:00.688 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:02:00.691 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:00.691 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:00.691 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:00.692 [tearDown@2] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:00.692 [tearDown@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+16:02:00.692 [tearDown@2] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+16:02:02.789 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+16:02:02.790 [tearDown@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:02:02.807 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:02:02.807 [tearDown@2] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:02:02.808 [tearDown@2] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+16:02:02.816 [tearDown@2] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+16:02:04.286 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3985
+
+16:02:04.286 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+16:02:04.287 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 6629
+16:02:04.572 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:02:04.573 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T10:02:04.573334800Z][ TESTHUB ] Batch event successfull!
+
+16:02:04.869 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+16:02:04.869 [addProductToCart@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:02:04.882 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:02:04.882 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:02:04.896 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:04.897 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:04.897 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:04.897 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:04.897 [addProductToCart@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+16:02:04.898 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+16:02:04.898 [addProductToCart@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\BStackDemoTest
+16:02:04.915 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:02:04.915 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:02:04.926 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:04.926 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:04.926 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:04.927 [addProductToCart@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:04.931 [addProductToCart@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+16:02:04.985 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+16:02:04.985 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:02:04.999 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:02:04.999 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:02:05.011 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:05.011 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:05.012 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+16:02:05.012 [tearDown@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+16:02:05.012 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+16:02:05.012 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+16:02:06.289 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2003
+
+16:02:06.290 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 3
+
+16:02:06.290 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 6750
+16:02:06.606 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:02:06.607 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T10:02:06.607146400Z][ TESTHUB ] Batch event successfull!
+
+16:02:07.755 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+16:02:07.755 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, TestClass :: com\browserstack\SeleniumTest
+16:02:07.770 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master, File.Separator :: \
+16:02:07.770 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: testng-browserstack-master\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Office Tasks\Parctices\Unit_7_parctice\testng-browserstack-master\.., Normalized Path :: C:\Office Tasks\Parctices\Unit_7_parctice 
+16:02:07.770 [tearDown@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+16:02:07.777 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+16:02:08.287 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+16:02:08.288 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+16:02:08.288 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-09-11T10:02:08.288544700Z][ OBSERVABILITY ] Processing stop observability
+16:02:08.288 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+16:02:08.288 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 904
+16:02:08.641 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:02:08.643 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-09-11T10:02:08.643539900Z][ TESTHUB ] Batch event successfull!
+
+16:02:08.644 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+16:02:08.644 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/ehmrtcwcisnqju0su7qrahtkdobl3hqidef56hv3/stop with request size 65
+16:02:08.907 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+16:02:08.907 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+16:02:14.014 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+16:02:14.016 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+16:02:14.018 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+16:02:14.036 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+16:02:14.202 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"RkJkSfSsr2pQAXkxGDw3","userName":"raisurrahman_IMlzY0","event_properties":{"product":"[automate, observability]","buildName":"browserstack-build-1","os":"Windows 10","languageVersion":"22.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":101,"ret-org.openqa.selenium.remote.RemoteWebDriver":2288,"retransformClasses":2291,"parseDependencies":21},"language":"java","sdkRunId":"7e4fa177-c63d-4794-8d46-b9ba31958905","buildIdentifier":"#3","userFramework":"testng","testhub_uuid":"ehmrtcwcisnqju0su7qrahtkdobl3hqidef56hv3","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.23.3","hostname":"DESKTOP-61IAQLG","measures":{"local:start":17389,"sdk:setup":26481,"local:stop":5095},"language_framework":"java_testng","detectedFramework":"testng","productUsage":{"testObservability":{"buildHashedId":"ehmrtcwcisnqju0su7qrahtkdobl3hqidef56hv3","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":6,"failedCount":0,"triggeredCount":6},"finished":{"triggeredCount":6,"failedCount":0,"errors":[],"sentCount":6},"passed":{"errors":[],"sentCount":6,"failedCount":0,"triggeredCount":6}},"logEvents":{"errors":[],"sentCount":4,"failedCount":0,"triggeredCount":4,"log":{"errors":[],"sentCount":4,"failedCount":0,"triggeredCount":4}},"testEvents":{"started":{"errors":[],"sentCount":3,"failedCount":0,"triggeredCount":3},"finished":{"triggeredCount":3,"failedCount":0,"errors":[],"sentCount":3},"passed":{"errors":[],"sentCount":3,"failedCount":0,"triggeredCount":3}},"batchEvents":{"triggeredCount":8,"failedCount":0,"errors":[],"sentCount":8},"cbtSessionEvents":{"errors":[],"sentCount":0,"failedCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"testOrchestration":{"abortBuildOnFailure":{"userConfig":{},"enabled":false},"retryTestsOnFailure":{"userConfig":{},"enabled":false}},"detectedSeleniumVersion":"4.1.4","browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"11_Sep_161_DESKTOP_61IAQLG_SFYu","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"device":null,"browser":"Chrome","os":"Windows","capabilities":{},"browserVersion":"latest","osVersion":"10","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Chrome"},"platformString":"Windows, 10, Chrome, latest","customVariables":"****"},{"device":null,"browser":"Safari","os":"OS X","capabilities":{},"browserVersion":"15.6","osVersion":"Monterey","platformCaps":{"os":"OS X","osVersion":"Monterey","browserVersion":15.6,"browserName":"Safari"},"platformString":"OS X, Monterey, Safari, 15.6","customVariables":"****"},{"device":"iPhone 13","browser":"safari","os":null,"capabilities":{"deviceOrientation":"portrait","deviceName":"iPhone 13"},"browserVersion":null,"osVersion":"15","platformCaps":{"osVersion":15,"browserName":"safari","deviceName":"iPhone 13"},"platformString":"iPhone 13, 15, safari","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"seleniumVersion":"4.1.4"}}
+16:02:14.611 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+16:02:17.044 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  3) is not same as client side buildName(browserstack-build-1 #3)
+16:02:17.047 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle-M Config File does not exist.
